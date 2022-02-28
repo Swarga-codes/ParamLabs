@@ -8,7 +8,7 @@ function App() {
   const [speed, setSpeed] = React.useState(navigator.connection.effectiveType);
    
   console.log(speed);
- 
+ console.log('hello');
   return (
     <div className="Background">
     <Navbar/> 
