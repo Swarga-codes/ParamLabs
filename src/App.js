@@ -7,7 +7,7 @@ function App() {
     <div className="Background">
     <Navbar/> 
     <Landing/>
-    <video >
+    <video loop autoPlay>
       <source
         src={ParamVid}
         type="video/mp4"
