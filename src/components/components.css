@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300&display=swap');
+/*NavBar*/
+
+.header {
+    position: relative;
+    height: 50vh;
+    text-align: center;
+    z-index:  1;
+    align-items: center;
+    justify-content: center;
+  }
+.handles img{
+    width: 2.5rem;
+    padding: 1rem 1.5rem;
+}
+.handles{
+    margin-left: auto;
+}
+.logo img{
+    width: 6.5rem;
+}
+.Navbar{
+    display: flex;
+    padding: 2rem 7rem;
+}
+.handles img{
+    cursor: pointer;
+}
+
+@media(max-width: 991px){
+    .logo img{
+        width: 6rem;
+    }
+    .Navbar{
+padding: 2rem 1rem;
+    }
+   
+}
+
+/* LANDING */
+.landing{
+    z-index: 1;
+    position: relative;
+    margin-top: -15rem;
+}
+.landing_img{
+    text-align: center;
+}
+.landing_img img{
+    width: 18rem;
+    justify-content: center;
+}
+.landing_cont h1, P{
+    color: #FFFFFF;
+    text-align: center;
+}
+.landing_cont h1{
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 74px;
+}
+.landing_cont p{
+    font-family: Epilogue;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 16px;
+}
+.landingP{
+    font-family: Epilogue;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: capitalize;
+}
+.landing_cont a {
+    color: #FFFFFF;
+    font-family: 'Epilogue', sans-serif;
+}
+.landing_cont p{
+    font-family: 'Epilogue', sans-serif;
+}
+
+@media(max-width:991px){
+    .landing_cont h1{
+        font-size: 56px;
+    }
+  
+ 
+}
