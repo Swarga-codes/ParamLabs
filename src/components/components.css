@@ -17,7 +17,7 @@
     margin-left: auto;
 }
 .logo img{
-    width: 6.5rem;
+    width: 3.5rem;
 }
 .Navbar{
     display: flex;
@@ -25,12 +25,14 @@
 }
 .handles img{
     cursor: pointer;
+    padding: 1rem 1.5rem;
+    width: 1.5rem;
 }
 
 @media(max-width: 991px){
-    .logo img{
+    /* .logo img{
         width: 6rem;
-    }
+    } */
     .Navbar{
 padding: 2rem 1rem;
     }

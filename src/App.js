@@ -7,7 +7,7 @@ function App() {
     <div className="Background">
     <Navbar/> 
     <Landing/>
-    <video >
+    <video loop autoPlay muted>
       <source
         src={ParamVid}
         type="video/mp4"
@@ -15,10 +15,6 @@ function App() {
       Your browser does not support the video tag.
      
     </video>
-    <div className="nav">
- 
-    
-    </div>
    
   </div>
   );
