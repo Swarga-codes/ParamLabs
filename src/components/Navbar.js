@@ -16,7 +16,7 @@ const Navbar = () => {
         <div className="handles">
         <a href="mailto: inquiries@paramlabs.io" target='_blank' rel='noreferrer'>
         <img src={Mail} alt="" /></a>
-        <a href="https://twitter.com/paramlabscorp" target='_blank' rel='noreferrer'>
+        <a href="https://mobile.twitter.com/ParamLaboratory" target='_blank' rel='noreferrer'>
         <img src={Twitter} alt="" />
         </a>
       
